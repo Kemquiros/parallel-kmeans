@@ -1,0 +1,1936 @@
+
+
+Programa kmeans con k=6 centroides
+
+Procesado el archivo datos_muestra_2.txt
+
+
+
+
+Número de registros ob=100
+
+Leyendo observación #0
+
+Leyendo observación #1
+
+Leyendo observación #2
+
+Leyendo observación #3
+
+Leyendo observación #4
+
+Leyendo observación #5
+
+Leyendo observación #6
+
+Leyendo observación #7
+
+Leyendo observación #8
+
+Leyendo observación #9
+
+Leyendo observación #10
+
+Leyendo observación #11
+
+Leyendo observación #12
+
+Leyendo observación #13
+
+Leyendo observación #14
+
+Leyendo observación #15
+
+Leyendo observación #16
+
+Leyendo observación #17
+
+Leyendo observación #18
+
+Leyendo observación #19
+
+Leyendo observación #20
+
+Leyendo observación #21
+
+Leyendo observación #22
+
+Leyendo observación #23
+
+Leyendo observación #24
+
+Leyendo observación #25
+
+Leyendo observación #26
+
+Leyendo observación #27
+
+Leyendo observación #28
+
+Leyendo observación #29
+
+Leyendo observación #30
+
+Leyendo observación #31
+
+Leyendo observación #32
+
+Leyendo observación #33
+
+Leyendo observación #34
+
+Leyendo observación #35
+
+Leyendo observación #36
+
+Leyendo observación #37
+
+Leyendo observación #38
+
+Leyendo observación #39
+
+Leyendo observación #40
+
+Leyendo observación #41
+
+Leyendo observación #42
+
+Leyendo observación #43
+
+Leyendo observación #44
+
+Leyendo observación #45
+
+Leyendo observación #46
+
+Leyendo observación #47
+
+Leyendo observación #48
+
+Leyendo observación #49
+
+Leyendo observación #50
+
+Leyendo observación #51
+
+Leyendo observación #52
+
+Leyendo observación #53
+
+Leyendo observación #54
+
+Leyendo observación #55
+
+Leyendo observación #56
+
+Leyendo observación #57
+
+Leyendo observación #58
+
+Leyendo observación #59
+
+Leyendo observación #60
+
+Leyendo observación #61
+
+Leyendo observación #62
+
+Leyendo observación #63
+
+Leyendo observación #64
+
+Leyendo observación #65
+
+Leyendo observación #66
+
+Leyendo observación #67
+
+Leyendo observación #68
+
+Leyendo observación #69
+
+Leyendo observación #70
+
+Leyendo observación #71
+
+Leyendo observación #72
+
+Leyendo observación #73
+
+Leyendo observación #74
+
+Leyendo observación #75
+
+Leyendo observación #76
+
+Leyendo observación #77
+
+Leyendo observación #78
+
+Leyendo observación #79
+
+Leyendo observación #80
+
+Leyendo observación #81
+
+Leyendo observación #82
+
+Leyendo observación #83
+
+Leyendo observación #84
+
+Leyendo observación #85
+
+Leyendo observación #86
+
+Leyendo observación #87
+
+Leyendo observación #88
+
+Leyendo observación #89
+
+Leyendo observación #90
+
+Leyendo observación #91
+
+Leyendo observación #92
+
+Leyendo observación #93
+
+Leyendo observación #94
+
+Leyendo observación #95
+
+Leyendo observación #96
+
+Leyendo observación #97
+
+Leyendo observación #98
+
+Leyendo observación #99
+media[1] -> 627.650024
+desviaciones[1] -> 786.540344
+media[2] -> 17502.203125
+desviaciones[2] -> 21751.783203
+media[3] -> 2014.469971
+desviaciones[3] -> 2.613257
+media[4] -> 2014.329956
+desviaciones[4] -> 2.888096
+
+ ------------ CLIENTES: INICIO
+
+
+Observacion #1
+clientes[1].id -> 107348232
+clientes[1].diasMora -> -0.333931
+clientes[1].lineaCredito -> 0.574564
+clientes[1].anioCastigo -> 0.585487
+clientes[1].anioUltimoPago -> 0.578251
+clientes[1].grupo -> 3
+
+Observacion #2
+clientes[2].id -> 107658558
+clientes[2].diasMora -> -0.448356
+clientes[2].lineaCredito -> 3.745339
+clientes[2].anioCastigo -> 0.968152
+clientes[2].anioUltimoPago -> 0.578251
+clientes[2].grupo -> 5
+
+Observacion #3
+clientes[3].id -> 107708693
+clientes[3].diasMora -> -0.027526
+clientes[3].lineaCredito -> 0.602148
+clientes[3].anioCastigo -> 0.585487
+clientes[3].anioUltimoPago -> 0.232002
+clientes[3].grupo -> 6
+
+Observacion #4
+clientes[4].id -> 107723165
+clientes[4].diasMora -> -0.530996
+clientes[4].lineaCredito -> -0.804633
+clientes[4].anioCastigo -> -6.685133
+clientes[4].anioUltimoPago -> -7.039224
+clientes[4].grupo -> 3
+
+Observacion #5
+clientes[5].id -> 107869823
+clientes[5].diasMora -> -0.517011
+clientes[5].lineaCredito -> 1.953761
+clientes[5].anioCastigo -> -0.562505
+clientes[5].anioUltimoPago -> -0.806745
+clientes[5].grupo -> 4
+
+Observacion #6
+clientes[6].id -> 108298057
+clientes[6].diasMora -> -0.509383
+clientes[6].lineaCredito -> 0.186320
+clientes[6].anioCastigo -> 0.585487
+clientes[6].anioUltimoPago -> 0.232002
+clientes[6].grupo -> 2
+
+Observacion #7
+clientes[7].id -> 110541597
+clientes[7].diasMora -> -0.098724
+clientes[7].lineaCredito -> 0.675246
+clientes[7].anioCastigo -> 0.585487
+clientes[7].anioUltimoPago -> 0.578251
+clientes[7].grupo -> 5
+
+Observacion #8
+clientes[8].id -> 110636750
+clientes[8].diasMora -> -0.508111
+clientes[8].lineaCredito -> -0.367887
+clientes[8].anioCastigo -> 0.585487
+clientes[8].anioUltimoPago -> 0.232002
+clientes[8].grupo -> 6
+
+Observacion #9
+clientes[9].id -> 116009390
+clientes[9].diasMora -> 0.173354
+clientes[9].lineaCredito -> -0.345130
+clientes[9].anioCastigo -> 0.202823
+clientes[9].anioUltimoPago -> 0.232002
+clientes[9].grupo -> 3
+
+Observacion #10
+clientes[10].id -> 117436369
+clientes[10].diasMora -> 0.946360
+clientes[10].lineaCredito -> -0.410183
+clientes[10].anioCastigo -> -0.179841
+clientes[10].anioUltimoPago -> -0.460496
+clientes[10].grupo -> 1
+
+Observacion #11
+clientes[11].id -> 117830839
+clientes[11].diasMora -> -0.508111
+clientes[11].lineaCredito -> -0.666713
+clientes[11].anioCastigo -> 0.202823
+clientes[11].anioUltimoPago -> 0.232002
+clientes[11].grupo -> 6
+
+Observacion #12
+clientes[12].id -> 110091668
+clientes[12].diasMora -> -0.530996
+clientes[12].lineaCredito -> -0.597753
+clientes[12].anioCastigo -> -0.179841
+clientes[12].anioUltimoPago -> -0.460496
+clientes[12].grupo -> 4
+
+Observacion #13
+clientes[13].id -> 110134661
+clientes[13].diasMora -> -0.508111
+clientes[13].lineaCredito -> -0.455236
+clientes[13].anioCastigo -> 0.968152
+clientes[13].anioUltimoPago -> 0.578251
+clientes[13].grupo -> 3
+
+Observacion #14
+clientes[14].id -> 110204623
+clientes[14].diasMora -> 0.854819
+clientes[14].lineaCredito -> 0.344698
+clientes[14].anioCastigo -> -0.179841
+clientes[14].anioUltimoPago -> -0.114247
+clientes[14].grupo -> 1
+
+Observacion #15
+clientes[15].id -> 110280819
+clientes[15].diasMora -> -0.509383
+clientes[15].lineaCredito -> -0.386277
+clientes[15].anioCastigo -> 0.585487
+clientes[15].anioUltimoPago -> 0.232002
+clientes[15].grupo -> 6
+
+Observacion #16
+clientes[16].id -> 110348267
+clientes[16].diasMora -> -0.508111
+clientes[16].lineaCredito -> -0.547229
+clientes[16].anioCastigo -> -0.179841
+clientes[16].anioUltimoPago -> -0.114247
+clientes[16].grupo -> 4
+
+Observacion #17
+clientes[17].id -> 110437088
+clientes[17].diasMora -> -0.508111
+clientes[17].lineaCredito -> -0.423055
+clientes[17].anioCastigo -> 0.202823
+clientes[17].anioUltimoPago -> 0.232002
+clientes[17].grupo -> 1
+
+Observacion #18
+clientes[18].id -> 110467669
+clientes[18].diasMora -> -0.584395
+clientes[18].lineaCredito -> -0.459834
+clientes[18].anioCastigo -> 0.968152
+clientes[18].anioUltimoPago -> 0.924500
+clientes[18].grupo -> 4
+
+Observacion #19
+clientes[19].id -> 110469760
+clientes[19].diasMora -> -0.492855
+clientes[19].lineaCredito -> -0.321914
+clientes[19].anioCastigo -> 0.202823
+clientes[19].anioUltimoPago -> 0.232002
+clientes[19].grupo -> 2
+
+Observacion #20
+clientes[20].id -> 118189401
+clientes[20].diasMora -> -0.530996
+clientes[20].lineaCredito -> -0.708089
+clientes[20].anioCastigo -> 0.202823
+clientes[20].anioUltimoPago -> -0.114247
+clientes[20].grupo -> 6
+
+Observacion #21
+clientes[21].id -> 118195683
+clientes[21].diasMora -> -0.508111
+clientes[21].lineaCredito -> -0.551780
+clientes[21].anioCastigo -> 0.585487
+clientes[21].anioUltimoPago -> 0.578251
+clientes[21].grupo -> 3
+
+Observacion #22
+clientes[22].id -> 118196726
+clientes[22].diasMora -> 0.400933
+clientes[22].lineaCredito -> -0.501677
+clientes[22].anioCastigo -> 0.202823
+clientes[22].anioUltimoPago -> -0.114247
+clientes[22].grupo -> 1
+
+Observacion #23
+clientes[23].id -> 108497963
+clientes[23].diasMora -> 1.210809
+clientes[23].lineaCredito -> -0.552929
+clientes[23].anioCastigo -> -0.562505
+clientes[23].anioUltimoPago -> -0.460496
+clientes[23].grupo -> 2
+
+Observacion #24
+clientes[24].id -> 109255791
+clientes[24].diasMora -> 1.682495
+clientes[24].lineaCredito -> -0.574767
+clientes[24].anioCastigo -> -0.945169
+clientes[24].anioUltimoPago -> -0.806745
+clientes[24].grupo -> 4
+
+Observacion #25
+clientes[25].id -> 109405299
+clientes[25].diasMora -> -0.508111
+clientes[25].lineaCredito -> -0.698895
+clientes[25].anioCastigo -> -0.179841
+clientes[25].anioUltimoPago -> -0.114247
+clientes[25].grupo -> 2
+
+Observacion #26
+clientes[26].id -> 109584547
+clientes[26].diasMora -> 0.365334
+clientes[26].lineaCredito -> 2.045708
+clientes[26].anioCastigo -> 0.202823
+clientes[26].anioUltimoPago -> 0.232002
+clientes[26].grupo -> 2
+
+Observacion #27
+clientes[27].id -> 110646397
+clientes[27].diasMora -> 0.559857
+clientes[27].lineaCredito -> 0.275738
+clientes[27].anioCastigo -> 0.202823
+clientes[27].anioUltimoPago -> 0.232002
+clientes[27].grupo -> 6
+
+Observacion #28
+clientes[28].id -> 110706391
+clientes[28].diasMora -> 0.501373
+clientes[28].lineaCredito -> -0.314558
+clientes[28].anioCastigo -> 0.202823
+clientes[28].anioUltimoPago -> 0.578251
+clientes[28].grupo -> 2
+
+Observacion #29
+clientes[29].id -> 110754479
+clientes[29].diasMora -> 0.351349
+clientes[29].lineaCredito -> -0.449330
+clientes[29].anioCastigo -> 0.202823
+clientes[29].anioUltimoPago -> 0.232002
+clientes[29].grupo -> 6
+
+Observacion #30
+clientes[30].id -> 115347733
+clientes[30].diasMora -> -0.509383
+clientes[30].lineaCredito -> -0.450639
+clientes[30].anioCastigo -> 0.202823
+clientes[30].anioUltimoPago -> 0.232002
+clientes[30].grupo -> 4
+
+Observacion #31
+clientes[31].id -> 115421748
+clientes[31].diasMora -> 1.332862
+clientes[31].lineaCredito -> -0.298927
+clientes[31].anioCastigo -> -0.562505
+clientes[31].anioUltimoPago -> -0.460496
+clientes[31].grupo -> 6
+
+Observacion #32
+clientes[32].id -> 115425204
+clientes[32].diasMora -> -0.530996
+clientes[32].lineaCredito -> -0.627636
+clientes[32].anioCastigo -> -0.562505
+clientes[32].anioUltimoPago -> -0.460496
+clientes[32].grupo -> 6
+
+Observacion #33
+clientes[33].id -> 115432824
+clientes[33].diasMora -> 0.754380
+clientes[33].lineaCredito -> -0.597753
+clientes[33].anioCastigo -> -0.179841
+clientes[33].anioUltimoPago -> -0.114247
+clientes[33].grupo -> 1
+
+Observacion #34
+clientes[34].id -> 115453542
+clientes[34].diasMora -> -0.136865
+clientes[34].lineaCredito -> 0.050469
+clientes[34].anioCastigo -> 0.202823
+clientes[34].anioUltimoPago -> 0.924500
+clientes[34].grupo -> 5
+
+Observacion #35
+clientes[35].id -> 115617294
+clientes[35].diasMora -> 0.821763
+clientes[35].lineaCredito -> -0.039481
+clientes[35].anioCastigo -> -0.179841
+clientes[35].anioUltimoPago -> -0.114247
+clientes[35].grupo -> 2
+
+Observacion #36
+clientes[36].id -> 115725449
+clientes[36].diasMora -> -0.508111
+clientes[36].lineaCredito -> -0.657519
+clientes[36].anioCastigo -> 0.202823
+clientes[36].anioUltimoPago -> 0.232002
+clientes[36].grupo -> 4
+
+Observacion #37
+clientes[37].id -> 115726104
+clientes[37].diasMora -> -0.508111
+clientes[37].lineaCredito -> -0.703492
+clientes[37].anioCastigo -> 0.202823
+clientes[37].anioUltimoPago -> 0.232002
+clientes[37].grupo -> 4
+
+Observacion #38
+clientes[38].id -> 118863677
+clientes[38].diasMora -> -0.508111
+clientes[38].lineaCredito -> 0.022885
+clientes[38].anioCastigo -> 0.202823
+clientes[38].anioUltimoPago -> 0.232002
+clientes[38].grupo -> 6
+
+Observacion #39
+clientes[39].id -> 119098785
+clientes[39].diasMora -> -0.509383
+clientes[39].lineaCredito -> 0.061963
+clientes[39].anioCastigo -> 0.968152
+clientes[39].anioUltimoPago -> 0.578251
+clientes[39].grupo -> 1
+
+Observacion #40
+clientes[40].id -> 121849051
+clientes[40].diasMora -> -0.530996
+clientes[40].lineaCredito -> -0.335706
+clientes[40].anioCastigo -> 0.968152
+clientes[40].anioUltimoPago -> 0.578251
+clientes[40].grupo -> 6
+
+Observacion #41
+clientes[41].id -> 121871877
+clientes[41].diasMora -> -0.508111
+clientes[41].lineaCredito -> -0.324029
+clientes[41].anioCastigo -> 0.202823
+clientes[41].anioUltimoPago -> 0.578251
+clientes[41].grupo -> 6
+
+Observacion #42
+clientes[42].id -> 121886918
+clientes[42].diasMora -> -0.585666
+clientes[42].lineaCredito -> -0.316857
+clientes[42].anioCastigo -> 0.968152
+clientes[42].anioUltimoPago -> 0.924500
+clientes[42].grupo -> 1
+
+Observacion #43
+clientes[43].id -> 122100935
+clientes[43].diasMora -> -0.499212
+clientes[43].lineaCredito -> 1.953761
+clientes[43].anioCastigo -> 0.968152
+clientes[43].anioUltimoPago -> 0.578251
+clientes[43].grupo -> 1
+
+Observacion #44
+clientes[44].id -> 122300423
+clientes[44].diasMora -> -0.508111
+clientes[44].lineaCredito -> -0.032283
+clientes[44].anioCastigo -> -0.179841
+clientes[44].anioUltimoPago -> -0.114247
+clientes[44].grupo -> 1
+
+Observacion #45
+clientes[45].id -> 122303789
+clientes[45].diasMora -> -0.508111
+clientes[45].lineaCredito -> -0.639129
+clientes[45].anioCastigo -> 0.585487
+clientes[45].anioUltimoPago -> 0.578251
+clientes[45].grupo -> 1
+
+Observacion #46
+clientes[46].id -> 122482794
+clientes[46].diasMora -> -0.509383
+clientes[46].lineaCredito -> 0.648121
+clientes[46].anioCastigo -> 0.202823
+clientes[46].anioUltimoPago -> 0.232002
+clientes[46].grupo -> 6
+
+Observacion #47
+clientes[47].id -> 122512662
+clientes[47].diasMora -> -0.508111
+clientes[47].lineaCredito -> -0.680505
+clientes[47].anioCastigo -> -0.562505
+clientes[47].anioUltimoPago -> -0.460496
+clientes[47].grupo -> 2
+
+Observacion #48
+clientes[48].id -> 107629620
+clientes[48].diasMora -> -0.530996
+clientes[48].lineaCredito -> -0.477993
+clientes[48].anioCastigo -> 0.585487
+clientes[48].anioUltimoPago -> 0.578251
+clientes[48].grupo -> 5
+
+Observacion #49
+clientes[49].id -> 107686046
+clientes[49].diasMora -> 0.948902
+clientes[49].lineaCredito -> 0.233994
+clientes[49].anioCastigo -> -0.179841
+clientes[49].anioUltimoPago -> -0.114247
+clientes[49].grupo -> 2
+
+Observacion #50
+clientes[50].id -> 108169466
+clientes[50].diasMora -> 0.215310
+clientes[50].lineaCredito -> -0.596010
+clientes[50].anioCastigo -> 0.202823
+clientes[50].anioUltimoPago -> 0.232002
+clientes[50].grupo -> 3
+
+Observacion #51
+clientes[51].id -> 117576270
+clientes[51].diasMora -> -0.509383
+clientes[51].lineaCredito -> -0.367887
+clientes[51].anioCastigo -> 0.968152
+clientes[51].anioUltimoPago -> 0.578251
+clientes[51].grupo -> 4
+
+Observacion #52
+clientes[52].id -> 109716776
+clientes[52].diasMora -> -0.508111
+clientes[52].lineaCredito -> -0.680505
+clientes[52].anioCastigo -> 0.585487
+clientes[52].anioUltimoPago -> 0.924500
+clientes[52].grupo -> 4
+
+Observacion #53
+clientes[53].id -> 109873393
+clientes[53].diasMora -> -0.509383
+clientes[53].lineaCredito -> 0.329941
+clientes[53].anioCastigo -> 0.585487
+clientes[53].anioUltimoPago -> 0.578251
+clientes[53].grupo -> 1
+
+Observacion #54
+clientes[54].id -> 109874533
+clientes[54].diasMora -> 0.605627
+clientes[54].lineaCredito -> -0.515002
+clientes[54].anioCastigo -> -0.179841
+clientes[54].anioUltimoPago -> -0.114247
+clientes[54].grupo -> 3
+
+Observacion #55
+clientes[55].id -> 109929631
+clientes[55].diasMora -> 0.754380
+clientes[55].lineaCredito -> -0.039179
+clientes[55].anioCastigo -> -0.179841
+clientes[55].anioUltimoPago -> -0.114247
+clientes[55].grupo -> 5
+
+Observacion #56
+clientes[56].id -> 110439275
+clientes[56].diasMora -> 1.487972
+clientes[56].lineaCredito -> -0.574767
+clientes[56].anioCastigo -> -0.562505
+clientes[56].anioUltimoPago -> -0.806745
+clientes[56].grupo -> 3
+
+Observacion #57
+clientes[57].id -> 120104731
+clientes[57].diasMora -> 0.786164
+clientes[57].lineaCredito -> -0.271343
+clientes[57].anioCastigo -> -0.179841
+clientes[57].anioUltimoPago -> -0.114247
+clientes[57].grupo -> 4
+
+Observacion #58
+clientes[58].id -> 120117076
+clientes[58].diasMora -> -0.214420
+clientes[58].lineaCredito -> 1.218190
+clientes[58].anioCastigo -> 0.585487
+clientes[58].anioUltimoPago -> 0.578251
+clientes[58].grupo -> 4
+
+Observacion #59
+clientes[59].id -> 120122111
+clientes[59].diasMora -> -0.508111
+clientes[59].lineaCredito -> -0.680505
+clientes[59].anioCastigo -> -0.562505
+clientes[59].anioUltimoPago -> -0.460496
+clientes[59].grupo -> 4
+
+Observacion #60
+clientes[60].id -> 110315282
+clientes[60].diasMora -> -0.547524
+clientes[60].lineaCredito -> 1.531819
+clientes[60].anioCastigo -> 0.968152
+clientes[60].anioUltimoPago -> 0.578251
+clientes[60].grupo -> 2
+
+Observacion #61
+clientes[61].id -> 110361319
+clientes[61].diasMora -> -0.508111
+clientes[61].lineaCredito -> -0.533391
+clientes[61].anioCastigo -> -0.562505
+clientes[61].anioUltimoPago -> -0.460496
+clientes[61].grupo -> 6
+
+Observacion #62
+clientes[62].id -> 119203460
+clientes[62].diasMora -> -0.430556
+clientes[62].lineaCredito -> 0.091845
+clientes[62].anioCastigo -> 0.968152
+clientes[62].anioUltimoPago -> 0.578251
+clientes[62].grupo -> 1
+
+Observacion #63
+clientes[63].id -> 119432756
+clientes[63].diasMora -> -0.508111
+clientes[63].lineaCredito -> -0.390874
+clientes[63].anioCastigo -> -0.562505
+clientes[63].anioUltimoPago -> -0.460496
+clientes[63].grupo -> 1
+
+Observacion #64
+clientes[64].id -> 119525210
+clientes[64].diasMora -> -0.508111
+clientes[64].lineaCredito -> -0.349498
+clientes[64].anioCastigo -> 0.202823
+clientes[64].anioUltimoPago -> 0.232002
+clientes[64].grupo -> 6
+
+Observacion #65
+clientes[65].id -> 119693661
+clientes[65].diasMora -> 1.604940
+clientes[65].lineaCredito -> -0.563733
+clientes[65].anioCastigo -> -0.945169
+clientes[65].anioUltimoPago -> -0.806745
+clientes[65].grupo -> 3
+
+Observacion #66
+clientes[66].id -> 115845393
+clientes[66].diasMora -> -0.508111
+clientes[66].lineaCredito -> -0.241461
+clientes[66].anioCastigo -> -0.562505
+clientes[66].anioUltimoPago -> -0.460496
+clientes[66].grupo -> 3
+
+Observacion #67
+clientes[67].id -> 115981876
+clientes[67].diasMora -> 0.637412
+clientes[67].lineaCredito -> 0.436645
+clientes[67].anioCastigo -> -0.179841
+clientes[67].anioUltimoPago -> 0.232002
+clientes[67].grupo -> 1
+
+Observacion #68
+clientes[68].id -> 118128159
+clientes[68].diasMora -> -0.530996
+clientes[68].lineaCredito -> 0.100856
+clientes[68].anioCastigo -> 0.585487
+clientes[68].anioUltimoPago -> 0.578251
+clientes[68].grupo -> 6
+
+Observacion #69
+clientes[69].id -> 118142455
+clientes[69].diasMora -> -0.266547
+clientes[69].lineaCredito -> 1.494029
+clientes[69].anioCastigo -> 0.585487
+clientes[69].anioUltimoPago -> 0.578251
+clientes[69].grupo -> 6
+
+Observacion #70
+clientes[70].id -> 115953597
+clientes[70].diasMora -> 5.455982
+clientes[70].lineaCredito -> -0.344901
+clientes[70].anioCastigo -> -2.093162
+clientes[70].anioUltimoPago -> -3.576735
+clientes[70].grupo -> 1
+
+Observacion #71
+clientes[71].id -> 116442994
+clientes[71].diasMora -> -0.530996
+clientes[71].lineaCredito -> -0.390414
+clientes[71].anioCastigo -> 0.202823
+clientes[71].anioUltimoPago -> -0.114247
+clientes[71].grupo -> 6
+
+Observacion #72
+clientes[72].id -> 107312245
+clientes[72].diasMora -> 0.828120
+clientes[72].lineaCredito -> 0.120073
+clientes[72].anioCastigo -> -0.179841
+clientes[72].anioUltimoPago -> -0.114247
+clientes[72].grupo -> 4
+
+Observacion #73
+clientes[73].id -> 107317918
+clientes[73].diasMora -> 1.138340
+clientes[73].lineaCredito -> -0.516198
+clientes[73].anioCastigo -> -0.562505
+clientes[73].anioUltimoPago -> -0.460496
+clientes[73].grupo -> 5
+
+Observacion #74
+clientes[74].id -> 107338148
+clientes[74].diasMora -> -0.508111
+clientes[74].lineaCredito -> -0.632233
+clientes[74].anioCastigo -> -0.562505
+clientes[74].anioUltimoPago -> -0.114247
+clientes[74].grupo -> 6
+
+Observacion #75
+clientes[75].id -> 108459200
+clientes[75].diasMora -> -0.584395
+clientes[75].lineaCredito -> -0.721881
+clientes[75].anioCastigo -> 0.968152
+clientes[75].anioUltimoPago -> 0.924500
+clientes[75].grupo -> 2
+
+Observacion #76
+clientes[76].id -> 118026310
+clientes[76].diasMora -> -0.504297
+clientes[76].lineaCredito -> 0.942350
+clientes[76].anioCastigo -> 0.585487
+clientes[76].anioUltimoPago -> 0.578251
+clientes[76].grupo -> 3
+
+Observacion #77
+clientes[77].id -> 118071281
+clientes[77].diasMora -> 5.318672
+clientes[77].lineaCredito -> -0.620740
+clientes[77].anioCastigo -> -2.093162
+clientes[77].anioUltimoPago -> 0.924500
+clientes[77].grupo -> 4
+
+Observacion #78
+clientes[78].id -> 116734404
+clientes[78].diasMora -> 1.088755
+clientes[78].lineaCredito -> -0.183075
+clientes[78].anioCastigo -> -0.562505
+clientes[78].anioUltimoPago -> -0.460496
+clientes[78].grupo -> 3
+
+Observacion #79
+clientes[79].id -> 116738867
+clientes[79].diasMora -> -0.510654
+clientes[79].lineaCredito -> -0.528794
+clientes[79].anioCastigo -> -4.006483
+clientes[79].anioUltimoPago -> -3.576735
+clientes[79].grupo -> 2
+
+Observacion #80
+clientes[80].id -> 110356687
+clientes[80].diasMora -> -0.508111
+clientes[80].lineaCredito -> -0.666713
+clientes[80].anioCastigo -> -0.562505
+clientes[80].anioUltimoPago -> -0.114247
+clientes[80].grupo -> 5
+
+Observacion #81
+clientes[81].id -> 110362951
+clientes[81].diasMora -> 1.674866
+clientes[81].lineaCredito -> -0.506015
+clientes[81].anioCastigo -> -0.945169
+clientes[81].anioUltimoPago -> -0.806745
+clientes[81].grupo -> 5
+
+Observacion #82
+clientes[82].id -> 121854324
+clientes[82].diasMora -> 0.829392
+clientes[82].lineaCredito -> -0.557987
+clientes[82].anioCastigo -> -0.179841
+clientes[82].anioUltimoPago -> -0.114247
+clientes[82].grupo -> 3
+
+Observacion #83
+clientes[83].id -> 108669050
+clientes[83].diasMora -> -0.509383
+clientes[83].lineaCredito -> -0.526495
+clientes[83].anioCastigo -> 0.585487
+clientes[83].anioUltimoPago -> 0.578251
+clientes[83].grupo -> 2
+
+Observacion #84
+clientes[84].id -> 109075725
+clientes[84].diasMora -> -0.509383
+clientes[84].lineaCredito -> -0.712687
+clientes[84].anioCastigo -> -0.562505
+clientes[84].anioUltimoPago -> -0.460496
+clientes[84].grupo -> 5
+
+Observacion #85
+clientes[85].id -> 109338236
+clientes[85].diasMora -> -0.508111
+clientes[85].lineaCredito -> -0.404666
+clientes[85].anioCastigo -> -0.179841
+clientes[85].anioUltimoPago -> -0.460496
+clientes[85].grupo -> 6
+
+Observacion #86
+clientes[86].id -> 109471847
+clientes[86].diasMora -> -0.508111
+clientes[86].lineaCredito -> -0.597753
+clientes[86].anioCastigo -> -0.562505
+clientes[86].anioUltimoPago -> -0.460496
+clientes[86].grupo -> 5
+
+Observacion #87
+clientes[87].id -> 109625391
+clientes[87].diasMora -> 0.328464
+clientes[87].lineaCredito -> 3.332959
+clientes[87].anioCastigo -> 0.202823
+clientes[87].anioUltimoPago -> 0.232002
+clientes[87].grupo -> 5
+
+Observacion #88
+clientes[88].id -> 109135111
+clientes[88].diasMora -> -0.547524
+clientes[88].lineaCredito -> -0.471787
+clientes[88].anioCastigo -> 0.968152
+clientes[88].anioUltimoPago -> 0.578251
+clientes[88].grupo -> 1
+
+Observacion #89
+clientes[89].id -> 109185560
+clientes[89].diasMora -> -0.508111
+clientes[89].lineaCredito -> -0.613982
+clientes[89].anioCastigo -> -0.179841
+clientes[89].anioUltimoPago -> -0.460496
+clientes[89].grupo -> 2
+
+Observacion #90
+clientes[90].id -> 109287550
+clientes[90].diasMora -> -0.508111
+clientes[90].lineaCredito -> -0.490682
+clientes[90].anioCastigo -> 0.202823
+clientes[90].anioUltimoPago -> 0.232002
+clientes[90].grupo -> 6
+
+Observacion #91
+clientes[91].id -> 109334236
+clientes[91].diasMora -> -0.509383
+clientes[91].lineaCredito -> 1.203110
+clientes[91].anioCastigo -> 0.202823
+clientes[91].anioUltimoPago -> -0.114247
+clientes[91].grupo -> 2
+
+Observacion #92
+clientes[92].id -> 109619927
+clientes[92].diasMora -> -0.509383
+clientes[92].lineaCredito -> -0.400068
+clientes[92].anioCastigo -> -0.179841
+clientes[92].anioUltimoPago -> 0.232002
+clientes[92].grupo -> 1
+
+Observacion #93
+clientes[93].id -> 109662388
+clientes[93].diasMora -> -0.508111
+clientes[93].lineaCredito -> -0.582123
+clientes[93].anioCastigo -> 0.585487
+clientes[93].anioUltimoPago -> 0.924500
+clientes[93].grupo -> 6
+
+Observacion #94
+clientes[94].id -> 110593082
+clientes[94].diasMora -> -0.408943
+clientes[94].lineaCredito -> 1.953761
+clientes[94].anioCastigo -> 0.968152
+clientes[94].anioUltimoPago -> 0.924500
+clientes[94].grupo -> 1
+
+Observacion #95
+clientes[95].id -> 108808209
+clientes[95].diasMora -> -0.509383
+clientes[95].lineaCredito -> 2.321548
+clientes[95].anioCastigo -> 0.968152
+clientes[95].anioUltimoPago -> 0.578251
+clientes[95].grupo -> 4
+
+Observacion #96
+clientes[96].id -> 108887775
+clientes[96].diasMora -> -0.623808
+clientes[96].lineaCredito -> 0.966716
+clientes[96].anioCastigo -> 0.968152
+clientes[96].anioUltimoPago -> 0.924500
+clientes[96].grupo -> 2
+
+Observacion #97
+clientes[97].id -> 116524707
+clientes[97].diasMora -> -0.524639
+clientes[97].lineaCredito -> -0.528794
+clientes[97].anioCastigo -> -0.562505
+clientes[97].anioUltimoPago -> -0.460496
+clientes[97].grupo -> 3
+
+Observacion #98
+clientes[98].id -> 116599681
+clientes[98].diasMora -> -0.508111
+clientes[98].lineaCredito -> -0.643727
+clientes[98].anioCastigo -> 0.202823
+clientes[98].anioUltimoPago -> 0.578251
+clientes[98].grupo -> 4
+
+Observacion #99
+clientes[99].id -> 116655009
+clientes[99].diasMora -> 0.423818
+clientes[99].lineaCredito -> -0.513071
+clientes[99].anioCastigo -> 0.202823
+clientes[99].anioUltimoPago -> -0.114247
+clientes[99].grupo -> 6
+
+Observacion #100
+clientes[100].id -> 116536295
+clientes[100].diasMora -> -0.607280
+clientes[100].lineaCredito -> 4.860190
+clientes[100].anioCastigo -> 0.968152
+clientes[100].anioUltimoPago -> 0.924500
+clientes[100].grupo -> 6
+
+
+ ------------ CENTROIDES: INICIO
+
+
+Centroide #1
+centroides[1].numElementos -> 18
+centroides[1].diasMora -> 0.167633
+centroides[1].lineaCredito -> 0.035780
+centroides[1].anioCastigo -> 0.202823
+centroides[1].anioUltimoPago -> 0.058878
+
+Centroide #2
+centroides[2].numElementos -> 16
+centroides[2].diasMora -> -0.122721
+centroides[2].lineaCredito -> 0.073015
+centroides[2].anioCastigo -> -0.060258
+centroides[2].anioUltimoPago -> -0.070966
+
+Centroide #3
+centroides[3].numElementos -> 14
+centroides[3].diasMora -> 0.184797
+centroides[3].lineaCredito -> -0.314335
+centroides[3].anioCastigo -> -0.507839
+centroides[3].anioUltimoPago -> -0.534692
+
+Centroide #4
+centroides[4].numElementos -> 17
+centroides[4].diasMora -> 0.128930
+centroides[4].lineaCredito -> -0.096610
+centroides[4].anioCastigo -> 0.000236
+centroides[4].anioUltimoPago -> 0.170899
+
+Centroide #5
+centroides[5].numElementos -> 11
+centroides[5].diasMora -> 0.105046
+centroides[5].lineaCredito -> 0.389770
+centroides[5].anioCastigo -> -0.075478
+centroides[5].anioUltimoPago -> 0.043139
+
+Centroide #6
+centroides[6].numElementos -> 24
+centroides[6].diasMora -> -0.291180
+centroides[6].lineaCredito -> -0.002363
+centroides[6].anioCastigo -> 0.218768
+centroides[6].anioUltimoPago -> 0.174294
+
+
+----------> ITERACION #1
+
+----------> ITERACION #2
+
+----------> ITERACION #3
+
+----------> ITERACION #4
+
+----------> ITERACION #5
+
+----------> ITERACION #6
+
+----------> ITERACION #7
+
+----------> ITERACION #8
+
+----------> FIN ITERACION
+
+ ------------ CLIENTES: RESULTADO
+
+
+Observacion #1
+clientes[1].id -> 107348232
+clientes[1].diasMora -> -0.333931
+clientes[1].lineaCredito -> 0.574564
+clientes[1].anioCastigo -> 0.585487
+clientes[1].anioUltimoPago -> 0.578251
+clientes[1].grupo -> 6
+
+Observacion #2
+clientes[2].id -> 107658558
+clientes[2].diasMora -> -0.448356
+clientes[2].lineaCredito -> 3.745339
+clientes[2].anioCastigo -> 0.968152
+clientes[2].anioUltimoPago -> 0.578251
+clientes[2].grupo -> 5
+
+Observacion #3
+clientes[3].id -> 107708693
+clientes[3].diasMora -> -0.027526
+clientes[3].lineaCredito -> 0.602148
+clientes[3].anioCastigo -> 0.585487
+clientes[3].anioUltimoPago -> 0.232002
+clientes[3].grupo -> 6
+
+Observacion #4
+clientes[4].id -> 107723165
+clientes[4].diasMora -> -0.530996
+clientes[4].lineaCredito -> -0.804633
+clientes[4].anioCastigo -> -6.685133
+clientes[4].anioUltimoPago -> -7.039224
+clientes[4].grupo -> 3
+
+Observacion #5
+clientes[5].id -> 107869823
+clientes[5].diasMora -> -0.517011
+clientes[5].lineaCredito -> 1.953761
+clientes[5].anioCastigo -> -0.562505
+clientes[5].anioUltimoPago -> -0.806745
+clientes[5].grupo -> 5
+
+Observacion #6
+clientes[6].id -> 108298057
+clientes[6].diasMora -> -0.509383
+clientes[6].lineaCredito -> 0.186320
+clientes[6].anioCastigo -> 0.585487
+clientes[6].anioUltimoPago -> 0.232002
+clientes[6].grupo -> 6
+
+Observacion #7
+clientes[7].id -> 110541597
+clientes[7].diasMora -> -0.098724
+clientes[7].lineaCredito -> 0.675246
+clientes[7].anioCastigo -> 0.585487
+clientes[7].anioUltimoPago -> 0.578251
+clientes[7].grupo -> 6
+
+Observacion #8
+clientes[8].id -> 110636750
+clientes[8].diasMora -> -0.508111
+clientes[8].lineaCredito -> -0.367887
+clientes[8].anioCastigo -> 0.585487
+clientes[8].anioUltimoPago -> 0.232002
+clientes[8].grupo -> 6
+
+Observacion #9
+clientes[9].id -> 116009390
+clientes[9].diasMora -> 0.173354
+clientes[9].lineaCredito -> -0.345130
+clientes[9].anioCastigo -> 0.202823
+clientes[9].anioUltimoPago -> 0.232002
+clientes[9].grupo -> 4
+
+Observacion #10
+clientes[10].id -> 117436369
+clientes[10].diasMora -> 0.946360
+clientes[10].lineaCredito -> -0.410183
+clientes[10].anioCastigo -> -0.179841
+clientes[10].anioUltimoPago -> -0.460496
+clientes[10].grupo -> 4
+
+Observacion #11
+clientes[11].id -> 117830839
+clientes[11].diasMora -> -0.508111
+clientes[11].lineaCredito -> -0.666713
+clientes[11].anioCastigo -> 0.202823
+clientes[11].anioUltimoPago -> 0.232002
+clientes[11].grupo -> 6
+
+Observacion #12
+clientes[12].id -> 110091668
+clientes[12].diasMora -> -0.530996
+clientes[12].lineaCredito -> -0.597753
+clientes[12].anioCastigo -> -0.179841
+clientes[12].anioUltimoPago -> -0.460496
+clientes[12].grupo -> 2
+
+Observacion #13
+clientes[13].id -> 110134661
+clientes[13].diasMora -> -0.508111
+clientes[13].lineaCredito -> -0.455236
+clientes[13].anioCastigo -> 0.968152
+clientes[13].anioUltimoPago -> 0.578251
+clientes[13].grupo -> 6
+
+Observacion #14
+clientes[14].id -> 110204623
+clientes[14].diasMora -> 0.854819
+clientes[14].lineaCredito -> 0.344698
+clientes[14].anioCastigo -> -0.179841
+clientes[14].anioUltimoPago -> -0.114247
+clientes[14].grupo -> 4
+
+Observacion #15
+clientes[15].id -> 110280819
+clientes[15].diasMora -> -0.509383
+clientes[15].lineaCredito -> -0.386277
+clientes[15].anioCastigo -> 0.585487
+clientes[15].anioUltimoPago -> 0.232002
+clientes[15].grupo -> 6
+
+Observacion #16
+clientes[16].id -> 110348267
+clientes[16].diasMora -> -0.508111
+clientes[16].lineaCredito -> -0.547229
+clientes[16].anioCastigo -> -0.179841
+clientes[16].anioUltimoPago -> -0.114247
+clientes[16].grupo -> 2
+
+Observacion #17
+clientes[17].id -> 110437088
+clientes[17].diasMora -> -0.508111
+clientes[17].lineaCredito -> -0.423055
+clientes[17].anioCastigo -> 0.202823
+clientes[17].anioUltimoPago -> 0.232002
+clientes[17].grupo -> 6
+
+Observacion #18
+clientes[18].id -> 110467669
+clientes[18].diasMora -> -0.584395
+clientes[18].lineaCredito -> -0.459834
+clientes[18].anioCastigo -> 0.968152
+clientes[18].anioUltimoPago -> 0.924500
+clientes[18].grupo -> 6
+
+Observacion #19
+clientes[19].id -> 110469760
+clientes[19].diasMora -> -0.492855
+clientes[19].lineaCredito -> -0.321914
+clientes[19].anioCastigo -> 0.202823
+clientes[19].anioUltimoPago -> 0.232002
+clientes[19].grupo -> 6
+
+Observacion #20
+clientes[20].id -> 118189401
+clientes[20].diasMora -> -0.530996
+clientes[20].lineaCredito -> -0.708089
+clientes[20].anioCastigo -> 0.202823
+clientes[20].anioUltimoPago -> -0.114247
+clientes[20].grupo -> 2
+
+Observacion #21
+clientes[21].id -> 118195683
+clientes[21].diasMora -> -0.508111
+clientes[21].lineaCredito -> -0.551780
+clientes[21].anioCastigo -> 0.585487
+clientes[21].anioUltimoPago -> 0.578251
+clientes[21].grupo -> 6
+
+Observacion #22
+clientes[22].id -> 118196726
+clientes[22].diasMora -> 0.400933
+clientes[22].lineaCredito -> -0.501677
+clientes[22].anioCastigo -> 0.202823
+clientes[22].anioUltimoPago -> -0.114247
+clientes[22].grupo -> 4
+
+Observacion #23
+clientes[23].id -> 108497963
+clientes[23].diasMora -> 1.210809
+clientes[23].lineaCredito -> -0.552929
+clientes[23].anioCastigo -> -0.562505
+clientes[23].anioUltimoPago -> -0.460496
+clientes[23].grupo -> 1
+
+Observacion #24
+clientes[24].id -> 109255791
+clientes[24].diasMora -> 1.682495
+clientes[24].lineaCredito -> -0.574767
+clientes[24].anioCastigo -> -0.945169
+clientes[24].anioUltimoPago -> -0.806745
+clientes[24].grupo -> 1
+
+Observacion #25
+clientes[25].id -> 109405299
+clientes[25].diasMora -> -0.508111
+clientes[25].lineaCredito -> -0.698895
+clientes[25].anioCastigo -> -0.179841
+clientes[25].anioUltimoPago -> -0.114247
+clientes[25].grupo -> 2
+
+Observacion #26
+clientes[26].id -> 109584547
+clientes[26].diasMora -> 0.365334
+clientes[26].lineaCredito -> 2.045708
+clientes[26].anioCastigo -> 0.202823
+clientes[26].anioUltimoPago -> 0.232002
+clientes[26].grupo -> 5
+
+Observacion #27
+clientes[27].id -> 110646397
+clientes[27].diasMora -> 0.559857
+clientes[27].lineaCredito -> 0.275738
+clientes[27].anioCastigo -> 0.202823
+clientes[27].anioUltimoPago -> 0.232002
+clientes[27].grupo -> 4
+
+Observacion #28
+clientes[28].id -> 110706391
+clientes[28].diasMora -> 0.501373
+clientes[28].lineaCredito -> -0.314558
+clientes[28].anioCastigo -> 0.202823
+clientes[28].anioUltimoPago -> 0.578251
+clientes[28].grupo -> 4
+
+Observacion #29
+clientes[29].id -> 110754479
+clientes[29].diasMora -> 0.351349
+clientes[29].lineaCredito -> -0.449330
+clientes[29].anioCastigo -> 0.202823
+clientes[29].anioUltimoPago -> 0.232002
+clientes[29].grupo -> 4
+
+Observacion #30
+clientes[30].id -> 115347733
+clientes[30].diasMora -> -0.509383
+clientes[30].lineaCredito -> -0.450639
+clientes[30].anioCastigo -> 0.202823
+clientes[30].anioUltimoPago -> 0.232002
+clientes[30].grupo -> 6
+
+Observacion #31
+clientes[31].id -> 115421748
+clientes[31].diasMora -> 1.332862
+clientes[31].lineaCredito -> -0.298927
+clientes[31].anioCastigo -> -0.562505
+clientes[31].anioUltimoPago -> -0.460496
+clientes[31].grupo -> 1
+
+Observacion #32
+clientes[32].id -> 115425204
+clientes[32].diasMora -> -0.530996
+clientes[32].lineaCredito -> -0.627636
+clientes[32].anioCastigo -> -0.562505
+clientes[32].anioUltimoPago -> -0.460496
+clientes[32].grupo -> 2
+
+Observacion #33
+clientes[33].id -> 115432824
+clientes[33].diasMora -> 0.754380
+clientes[33].lineaCredito -> -0.597753
+clientes[33].anioCastigo -> -0.179841
+clientes[33].anioUltimoPago -> -0.114247
+clientes[33].grupo -> 4
+
+Observacion #34
+clientes[34].id -> 115453542
+clientes[34].diasMora -> -0.136865
+clientes[34].lineaCredito -> 0.050469
+clientes[34].anioCastigo -> 0.202823
+clientes[34].anioUltimoPago -> 0.924500
+clientes[34].grupo -> 6
+
+Observacion #35
+clientes[35].id -> 115617294
+clientes[35].diasMora -> 0.821763
+clientes[35].lineaCredito -> -0.039481
+clientes[35].anioCastigo -> -0.179841
+clientes[35].anioUltimoPago -> -0.114247
+clientes[35].grupo -> 4
+
+Observacion #36
+clientes[36].id -> 115725449
+clientes[36].diasMora -> -0.508111
+clientes[36].lineaCredito -> -0.657519
+clientes[36].anioCastigo -> 0.202823
+clientes[36].anioUltimoPago -> 0.232002
+clientes[36].grupo -> 6
+
+Observacion #37
+clientes[37].id -> 115726104
+clientes[37].diasMora -> -0.508111
+clientes[37].lineaCredito -> -0.703492
+clientes[37].anioCastigo -> 0.202823
+clientes[37].anioUltimoPago -> 0.232002
+clientes[37].grupo -> 6
+
+Observacion #38
+clientes[38].id -> 118863677
+clientes[38].diasMora -> -0.508111
+clientes[38].lineaCredito -> 0.022885
+clientes[38].anioCastigo -> 0.202823
+clientes[38].anioUltimoPago -> 0.232002
+clientes[38].grupo -> 6
+
+Observacion #39
+clientes[39].id -> 119098785
+clientes[39].diasMora -> -0.509383
+clientes[39].lineaCredito -> 0.061963
+clientes[39].anioCastigo -> 0.968152
+clientes[39].anioUltimoPago -> 0.578251
+clientes[39].grupo -> 6
+
+Observacion #40
+clientes[40].id -> 121849051
+clientes[40].diasMora -> -0.530996
+clientes[40].lineaCredito -> -0.335706
+clientes[40].anioCastigo -> 0.968152
+clientes[40].anioUltimoPago -> 0.578251
+clientes[40].grupo -> 6
+
+Observacion #41
+clientes[41].id -> 121871877
+clientes[41].diasMora -> -0.508111
+clientes[41].lineaCredito -> -0.324029
+clientes[41].anioCastigo -> 0.202823
+clientes[41].anioUltimoPago -> 0.578251
+clientes[41].grupo -> 6
+
+Observacion #42
+clientes[42].id -> 121886918
+clientes[42].diasMora -> -0.585666
+clientes[42].lineaCredito -> -0.316857
+clientes[42].anioCastigo -> 0.968152
+clientes[42].anioUltimoPago -> 0.924500
+clientes[42].grupo -> 6
+
+Observacion #43
+clientes[43].id -> 122100935
+clientes[43].diasMora -> -0.499212
+clientes[43].lineaCredito -> 1.953761
+clientes[43].anioCastigo -> 0.968152
+clientes[43].anioUltimoPago -> 0.578251
+clientes[43].grupo -> 5
+
+Observacion #44
+clientes[44].id -> 122300423
+clientes[44].diasMora -> -0.508111
+clientes[44].lineaCredito -> -0.032283
+clientes[44].anioCastigo -> -0.179841
+clientes[44].anioUltimoPago -> -0.114247
+clientes[44].grupo -> 2
+
+Observacion #45
+clientes[45].id -> 122303789
+clientes[45].diasMora -> -0.508111
+clientes[45].lineaCredito -> -0.639129
+clientes[45].anioCastigo -> 0.585487
+clientes[45].anioUltimoPago -> 0.578251
+clientes[45].grupo -> 6
+
+Observacion #46
+clientes[46].id -> 122482794
+clientes[46].diasMora -> -0.509383
+clientes[46].lineaCredito -> 0.648121
+clientes[46].anioCastigo -> 0.202823
+clientes[46].anioUltimoPago -> 0.232002
+clientes[46].grupo -> 6
+
+Observacion #47
+clientes[47].id -> 122512662
+clientes[47].diasMora -> -0.508111
+clientes[47].lineaCredito -> -0.680505
+clientes[47].anioCastigo -> -0.562505
+clientes[47].anioUltimoPago -> -0.460496
+clientes[47].grupo -> 2
+
+Observacion #48
+clientes[48].id -> 107629620
+clientes[48].diasMora -> -0.530996
+clientes[48].lineaCredito -> -0.477993
+clientes[48].anioCastigo -> 0.585487
+clientes[48].anioUltimoPago -> 0.578251
+clientes[48].grupo -> 6
+
+Observacion #49
+clientes[49].id -> 107686046
+clientes[49].diasMora -> 0.948902
+clientes[49].lineaCredito -> 0.233994
+clientes[49].anioCastigo -> -0.179841
+clientes[49].anioUltimoPago -> -0.114247
+clientes[49].grupo -> 4
+
+Observacion #50
+clientes[50].id -> 108169466
+clientes[50].diasMora -> 0.215310
+clientes[50].lineaCredito -> -0.596010
+clientes[50].anioCastigo -> 0.202823
+clientes[50].anioUltimoPago -> 0.232002
+clientes[50].grupo -> 4
+
+Observacion #51
+clientes[51].id -> 117576270
+clientes[51].diasMora -> -0.509383
+clientes[51].lineaCredito -> -0.367887
+clientes[51].anioCastigo -> 0.968152
+clientes[51].anioUltimoPago -> 0.578251
+clientes[51].grupo -> 6
+
+Observacion #52
+clientes[52].id -> 109716776
+clientes[52].diasMora -> -0.508111
+clientes[52].lineaCredito -> -0.680505
+clientes[52].anioCastigo -> 0.585487
+clientes[52].anioUltimoPago -> 0.924500
+clientes[52].grupo -> 6
+
+Observacion #53
+clientes[53].id -> 109873393
+clientes[53].diasMora -> -0.509383
+clientes[53].lineaCredito -> 0.329941
+clientes[53].anioCastigo -> 0.585487
+clientes[53].anioUltimoPago -> 0.578251
+clientes[53].grupo -> 6
+
+Observacion #54
+clientes[54].id -> 109874533
+clientes[54].diasMora -> 0.605627
+clientes[54].lineaCredito -> -0.515002
+clientes[54].anioCastigo -> -0.179841
+clientes[54].anioUltimoPago -> -0.114247
+clientes[54].grupo -> 4
+
+Observacion #55
+clientes[55].id -> 109929631
+clientes[55].diasMora -> 0.754380
+clientes[55].lineaCredito -> -0.039179
+clientes[55].anioCastigo -> -0.179841
+clientes[55].anioUltimoPago -> -0.114247
+clientes[55].grupo -> 4
+
+Observacion #56
+clientes[56].id -> 110439275
+clientes[56].diasMora -> 1.487972
+clientes[56].lineaCredito -> -0.574767
+clientes[56].anioCastigo -> -0.562505
+clientes[56].anioUltimoPago -> -0.806745
+clientes[56].grupo -> 1
+
+Observacion #57
+clientes[57].id -> 120104731
+clientes[57].diasMora -> 0.786164
+clientes[57].lineaCredito -> -0.271343
+clientes[57].anioCastigo -> -0.179841
+clientes[57].anioUltimoPago -> -0.114247
+clientes[57].grupo -> 4
+
+Observacion #58
+clientes[58].id -> 120117076
+clientes[58].diasMora -> -0.214420
+clientes[58].lineaCredito -> 1.218190
+clientes[58].anioCastigo -> 0.585487
+clientes[58].anioUltimoPago -> 0.578251
+clientes[58].grupo -> 5
+
+Observacion #59
+clientes[59].id -> 120122111
+clientes[59].diasMora -> -0.508111
+clientes[59].lineaCredito -> -0.680505
+clientes[59].anioCastigo -> -0.562505
+clientes[59].anioUltimoPago -> -0.460496
+clientes[59].grupo -> 2
+
+Observacion #60
+clientes[60].id -> 110315282
+clientes[60].diasMora -> -0.547524
+clientes[60].lineaCredito -> 1.531819
+clientes[60].anioCastigo -> 0.968152
+clientes[60].anioUltimoPago -> 0.578251
+clientes[60].grupo -> 5
+
+Observacion #61
+clientes[61].id -> 110361319
+clientes[61].diasMora -> -0.508111
+clientes[61].lineaCredito -> -0.533391
+clientes[61].anioCastigo -> -0.562505
+clientes[61].anioUltimoPago -> -0.460496
+clientes[61].grupo -> 2
+
+Observacion #62
+clientes[62].id -> 119203460
+clientes[62].diasMora -> -0.430556
+clientes[62].lineaCredito -> 0.091845
+clientes[62].anioCastigo -> 0.968152
+clientes[62].anioUltimoPago -> 0.578251
+clientes[62].grupo -> 6
+
+Observacion #63
+clientes[63].id -> 119432756
+clientes[63].diasMora -> -0.508111
+clientes[63].lineaCredito -> -0.390874
+clientes[63].anioCastigo -> -0.562505
+clientes[63].anioUltimoPago -> -0.460496
+clientes[63].grupo -> 2
+
+Observacion #64
+clientes[64].id -> 119525210
+clientes[64].diasMora -> -0.508111
+clientes[64].lineaCredito -> -0.349498
+clientes[64].anioCastigo -> 0.202823
+clientes[64].anioUltimoPago -> 0.232002
+clientes[64].grupo -> 6
+
+Observacion #65
+clientes[65].id -> 119693661
+clientes[65].diasMora -> 1.604940
+clientes[65].lineaCredito -> -0.563733
+clientes[65].anioCastigo -> -0.945169
+clientes[65].anioUltimoPago -> -0.806745
+clientes[65].grupo -> 1
+
+Observacion #66
+clientes[66].id -> 115845393
+clientes[66].diasMora -> -0.508111
+clientes[66].lineaCredito -> -0.241461
+clientes[66].anioCastigo -> -0.562505
+clientes[66].anioUltimoPago -> -0.460496
+clientes[66].grupo -> 2
+
+Observacion #67
+clientes[67].id -> 115981876
+clientes[67].diasMora -> 0.637412
+clientes[67].lineaCredito -> 0.436645
+clientes[67].anioCastigo -> -0.179841
+clientes[67].anioUltimoPago -> 0.232002
+clientes[67].grupo -> 4
+
+Observacion #68
+clientes[68].id -> 118128159
+clientes[68].diasMora -> -0.530996
+clientes[68].lineaCredito -> 0.100856
+clientes[68].anioCastigo -> 0.585487
+clientes[68].anioUltimoPago -> 0.578251
+clientes[68].grupo -> 6
+
+Observacion #69
+clientes[69].id -> 118142455
+clientes[69].diasMora -> -0.266547
+clientes[69].lineaCredito -> 1.494029
+clientes[69].anioCastigo -> 0.585487
+clientes[69].anioUltimoPago -> 0.578251
+clientes[69].grupo -> 5
+
+Observacion #70
+clientes[70].id -> 115953597
+clientes[70].diasMora -> 5.455982
+clientes[70].lineaCredito -> -0.344901
+clientes[70].anioCastigo -> -2.093162
+clientes[70].anioUltimoPago -> -3.576735
+clientes[70].grupo -> 3
+
+Observacion #71
+clientes[71].id -> 116442994
+clientes[71].diasMora -> -0.530996
+clientes[71].lineaCredito -> -0.390414
+clientes[71].anioCastigo -> 0.202823
+clientes[71].anioUltimoPago -> -0.114247
+clientes[71].grupo -> 2
+
+Observacion #72
+clientes[72].id -> 107312245
+clientes[72].diasMora -> 0.828120
+clientes[72].lineaCredito -> 0.120073
+clientes[72].anioCastigo -> -0.179841
+clientes[72].anioUltimoPago -> -0.114247
+clientes[72].grupo -> 4
+
+Observacion #73
+clientes[73].id -> 107317918
+clientes[73].diasMora -> 1.138340
+clientes[73].lineaCredito -> -0.516198
+clientes[73].anioCastigo -> -0.562505
+clientes[73].anioUltimoPago -> -0.460496
+clientes[73].grupo -> 1
+
+Observacion #74
+clientes[74].id -> 107338148
+clientes[74].diasMora -> -0.508111
+clientes[74].lineaCredito -> -0.632233
+clientes[74].anioCastigo -> -0.562505
+clientes[74].anioUltimoPago -> -0.114247
+clientes[74].grupo -> 2
+
+Observacion #75
+clientes[75].id -> 108459200
+clientes[75].diasMora -> -0.584395
+clientes[75].lineaCredito -> -0.721881
+clientes[75].anioCastigo -> 0.968152
+clientes[75].anioUltimoPago -> 0.924500
+clientes[75].grupo -> 6
+
+Observacion #76
+clientes[76].id -> 118026310
+clientes[76].diasMora -> -0.504297
+clientes[76].lineaCredito -> 0.942350
+clientes[76].anioCastigo -> 0.585487
+clientes[76].anioUltimoPago -> 0.578251
+clientes[76].grupo -> 5
+
+Observacion #77
+clientes[77].id -> 118071281
+clientes[77].diasMora -> 5.318672
+clientes[77].lineaCredito -> -0.620740
+clientes[77].anioCastigo -> -2.093162
+clientes[77].anioUltimoPago -> 0.924500
+clientes[77].grupo -> 1
+
+Observacion #78
+clientes[78].id -> 116734404
+clientes[78].diasMora -> 1.088755
+clientes[78].lineaCredito -> -0.183075
+clientes[78].anioCastigo -> -0.562505
+clientes[78].anioUltimoPago -> -0.460496
+clientes[78].grupo -> 4
+
+Observacion #79
+clientes[79].id -> 116738867
+clientes[79].diasMora -> -0.510654
+clientes[79].lineaCredito -> -0.528794
+clientes[79].anioCastigo -> -4.006483
+clientes[79].anioUltimoPago -> -3.576735
+clientes[79].grupo -> 3
+
+Observacion #80
+clientes[80].id -> 110356687
+clientes[80].diasMora -> -0.508111
+clientes[80].lineaCredito -> -0.666713
+clientes[80].anioCastigo -> -0.562505
+clientes[80].anioUltimoPago -> -0.114247
+clientes[80].grupo -> 2
+
+Observacion #81
+clientes[81].id -> 110362951
+clientes[81].diasMora -> 1.674866
+clientes[81].lineaCredito -> -0.506015
+clientes[81].anioCastigo -> -0.945169
+clientes[81].anioUltimoPago -> -0.806745
+clientes[81].grupo -> 1
+
+Observacion #82
+clientes[82].id -> 121854324
+clientes[82].diasMora -> 0.829392
+clientes[82].lineaCredito -> -0.557987
+clientes[82].anioCastigo -> -0.179841
+clientes[82].anioUltimoPago -> -0.114247
+clientes[82].grupo -> 4
+
+Observacion #83
+clientes[83].id -> 108669050
+clientes[83].diasMora -> -0.509383
+clientes[83].lineaCredito -> -0.526495
+clientes[83].anioCastigo -> 0.585487
+clientes[83].anioUltimoPago -> 0.578251
+clientes[83].grupo -> 6
+
+Observacion #84
+clientes[84].id -> 109075725
+clientes[84].diasMora -> -0.509383
+clientes[84].lineaCredito -> -0.712687
+clientes[84].anioCastigo -> -0.562505
+clientes[84].anioUltimoPago -> -0.460496
+clientes[84].grupo -> 2
+
+Observacion #85
+clientes[85].id -> 109338236
+clientes[85].diasMora -> -0.508111
+clientes[85].lineaCredito -> -0.404666
+clientes[85].anioCastigo -> -0.179841
+clientes[85].anioUltimoPago -> -0.460496
+clientes[85].grupo -> 2
+
+Observacion #86
+clientes[86].id -> 109471847
+clientes[86].diasMora -> -0.508111
+clientes[86].lineaCredito -> -0.597753
+clientes[86].anioCastigo -> -0.562505
+clientes[86].anioUltimoPago -> -0.460496
+clientes[86].grupo -> 2
+
+Observacion #87
+clientes[87].id -> 109625391
+clientes[87].diasMora -> 0.328464
+clientes[87].lineaCredito -> 3.332959
+clientes[87].anioCastigo -> 0.202823
+clientes[87].anioUltimoPago -> 0.232002
+clientes[87].grupo -> 5
+
+Observacion #88
+clientes[88].id -> 109135111
+clientes[88].diasMora -> -0.547524
+clientes[88].lineaCredito -> -0.471787
+clientes[88].anioCastigo -> 0.968152
+clientes[88].anioUltimoPago -> 0.578251
+clientes[88].grupo -> 6
+
+Observacion #89
+clientes[89].id -> 109185560
+clientes[89].diasMora -> -0.508111
+clientes[89].lineaCredito -> -0.613982
+clientes[89].anioCastigo -> -0.179841
+clientes[89].anioUltimoPago -> -0.460496
+clientes[89].grupo -> 2
+
+Observacion #90
+clientes[90].id -> 109287550
+clientes[90].diasMora -> -0.508111
+clientes[90].lineaCredito -> -0.490682
+clientes[90].anioCastigo -> 0.202823
+clientes[90].anioUltimoPago -> 0.232002
+clientes[90].grupo -> 6
+
+Observacion #91
+clientes[91].id -> 109334236
+clientes[91].diasMora -> -0.509383
+clientes[91].lineaCredito -> 1.203110
+clientes[91].anioCastigo -> 0.202823
+clientes[91].anioUltimoPago -> -0.114247
+clientes[91].grupo -> 5
+
+Observacion #92
+clientes[92].id -> 109619927
+clientes[92].diasMora -> -0.509383
+clientes[92].lineaCredito -> -0.400068
+clientes[92].anioCastigo -> -0.179841
+clientes[92].anioUltimoPago -> 0.232002
+clientes[92].grupo -> 2
+
+Observacion #93
+clientes[93].id -> 109662388
+clientes[93].diasMora -> -0.508111
+clientes[93].lineaCredito -> -0.582123
+clientes[93].anioCastigo -> 0.585487
+clientes[93].anioUltimoPago -> 0.924500
+clientes[93].grupo -> 6
+
+Observacion #94
+clientes[94].id -> 110593082
+clientes[94].diasMora -> -0.408943
+clientes[94].lineaCredito -> 1.953761
+clientes[94].anioCastigo -> 0.968152
+clientes[94].anioUltimoPago -> 0.924500
+clientes[94].grupo -> 5
+
+Observacion #95
+clientes[95].id -> 108808209
+clientes[95].diasMora -> -0.509383
+clientes[95].lineaCredito -> 2.321548
+clientes[95].anioCastigo -> 0.968152
+clientes[95].anioUltimoPago -> 0.578251
+clientes[95].grupo -> 5
+
+Observacion #96
+clientes[96].id -> 108887775
+clientes[96].diasMora -> -0.623808
+clientes[96].lineaCredito -> 0.966716
+clientes[96].anioCastigo -> 0.968152
+clientes[96].anioUltimoPago -> 0.924500
+clientes[96].grupo -> 5
+
+Observacion #97
+clientes[97].id -> 116524707
+clientes[97].diasMora -> -0.524639
+clientes[97].lineaCredito -> -0.528794
+clientes[97].anioCastigo -> -0.562505
+clientes[97].anioUltimoPago -> -0.460496
+clientes[97].grupo -> 2
+
+Observacion #98
+clientes[98].id -> 116599681
+clientes[98].diasMora -> -0.508111
+clientes[98].lineaCredito -> -0.643727
+clientes[98].anioCastigo -> 0.202823
+clientes[98].anioUltimoPago -> 0.578251
+clientes[98].grupo -> 6
+
+Observacion #99
+clientes[99].id -> 116655009
+clientes[99].diasMora -> 0.423818
+clientes[99].lineaCredito -> -0.513071
+clientes[99].anioCastigo -> 0.202823
+clientes[99].anioUltimoPago -> -0.114247
+clientes[99].grupo -> 4
+
+Observacion #100
+clientes[100].id -> 116536295
+clientes[100].diasMora -> -0.607280
+clientes[100].lineaCredito -> 4.860190
+clientes[100].anioCastigo -> 0.968152
+clientes[100].anioUltimoPago -> 0.924500
+clientes[100].grupo -> 5
+
+
+ ------------ CENTROIDES: RESULTADO
+
+
+Centroide #1
+centroides[1].numElementos -> 8
+centroides[1].diasMora -> 1.931369
+centroides[1].lineaCredito -> -0.526010
+centroides[1].anioCastigo -> -0.897336
+centroides[1].anioUltimoPago -> -0.460496
+
+Centroide #2
+centroides[2].numElementos -> 20
+centroides[2].diasMora -> -0.513642
+centroides[2].lineaCredito -> -0.534297
+centroides[2].anioCastigo -> -0.352040
+centroides[2].anioUltimoPago -> -0.304684
+
+Centroide #3
+centroides[3].numElementos -> 3
+centroides[3].diasMora -> 1.471444
+centroides[3].lineaCredito -> -0.559442
+centroides[3].anioCastigo -> -4.261592
+centroides[3].anioUltimoPago -> -4.730898
+
+Centroide #4
+centroides[4].numElementos -> 19
+centroides[4].diasMora -> 0.656951
+centroides[4].lineaCredito -> -0.206454
+centroides[4].anioCastigo -> -0.059000
+centroides[4].anioUltimoPago -> -0.023129
+
+Centroide #5
+centroides[5].numElementos -> 14
+centroides[5].diasMora -> -0.354455
+centroides[5].lineaCredito -> 2.108803
+centroides[5].anioCastigo -> 0.612821
+centroides[5].anioUltimoPago -> 0.454591
+
+Centroide #6
+centroides[6].numElementos -> 36
+centroides[6].diasMora -> -0.475338
+centroides[6].lineaCredito -> -0.250786
+centroides[6].anioCastigo -> 0.542969
+centroides[6].anioUltimoPago -> 0.501307
+
